@@ -1,11 +1,12 @@
 package filtering
 
 import (
-	"errors"
 	"fmt"
 	"io"
 	"strconv"
 	"strings"
+
+	errors "golang.org/x/xerrors"
 
 	expr "google.golang.org/genproto/googleapis/api/expr/v1alpha1"
 )
