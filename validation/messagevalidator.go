@@ -1,9 +1,10 @@
 package validation
 
 import (
-	"errors"
 	"fmt"
 	"strings"
+
+	errors "golang.org/x/xerrors"
 
 	"google.golang.org/genproto/googleapis/rpc/errdetails"
 )

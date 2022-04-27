@@ -1,11 +1,12 @@
 package filtering
 
 import (
-	"errors"
 	"fmt"
 	"io"
 	"unicode"
 	"unicode/utf8"
+
+	errors "golang.org/x/xerrors"
 )
 
 // Lexer is a filter expression lexer.

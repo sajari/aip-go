@@ -1,9 +1,10 @@
 package filtering
 
 import (
-	"errors"
 	"fmt"
 	"strings"
+
+	errors "golang.org/x/xerrors"
 )
 
 type filterError interface {

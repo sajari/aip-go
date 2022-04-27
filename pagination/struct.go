@@ -3,10 +3,11 @@ package pagination
 import (
 	"encoding/base64"
 	"encoding/gob"
-	"errors"
 	"fmt"
 	"io"
 	"strings"
+
+	errors "golang.org/x/xerrors"
 )
 
 // EncodePageTokenStruct encodes an arbitrary struct as a page token.
